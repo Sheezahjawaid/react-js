@@ -15,6 +15,15 @@ function App() {
     }
     else{
       setCounter(counter + 1)
+      /* new method if want to add 2 or more count in one time 
+
+      setcount(prevCounter => prevCounter + 1)
+      setcount(prevCounter => prevCounter + 1)
+      setcount(prevCounter => prevCounter + 1)
+      setcount(prevCounter => prevCounter + 1)
+      
+      now when click initial 15 one time count will be 19
+      */
     }
   }
 
